@@ -1,7 +1,7 @@
 .container.contact__container {
   width: 50%;
   display: grid;
-  grid-template-columns: 30% 58%;
+  grid-template-columns: 50% 58%;
   gap: 12%;
 }
 
@@ -48,6 +48,14 @@ input, textarea {
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
+}
+
+
+//4k 
+@media screen and ( max-width: 2500px) {
+  .container.contact__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 //Tablet

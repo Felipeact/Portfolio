@@ -47,7 +47,6 @@ export function ModalReview( {dataUser} : NewServiceModalProps) {
 
   function CreateMessage( data: MessageData) {
    
-    console.log(data)
     const db = database
 
     set(ref(db, 'reviews/' + dataUser?.uid), data)
