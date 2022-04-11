@@ -40,11 +40,11 @@
 .service__list .service__list-icon {
   color: var(--color-primary);
   margin-top: 2px;
-  font-size: 3rem;
 }
 
 .service__list p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  width: fit-content;
 }
 
 //Tablet
